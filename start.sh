@@ -6,3 +6,4 @@ ffmpeg -rtsp_transport tcp -i rtsp://stdance:13021993@192.168.100.11:554/stream1
 /var/www/html/stream/index.m3u8 &
 
 nginx -g "daemon off;"
+
